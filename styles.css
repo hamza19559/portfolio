@@ -1,0 +1,325 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #1a73e8, #4285f4);
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(90deg, #1a73e8, #34a853);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ff9900;
+}
+
+/* About Section */
+#about {
+    background-color: #e3f2fd;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1a73e8;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Software & Tools Section */
+#software-tools {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#software-tools h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #34a853;
+}
+
+#software-tools .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+#software-tools .tool-item {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#software-tools .tool-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f3e5f5;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #6a1b9a;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#skills ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#skills ul li:hover {
+    color: #6a1b9a;
+}
+
+/* Professional Experiences Section */
+#professional-experiences {
+    background-color: #e8f5e9;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#professional-experiences h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2e7d32;
+}
+
+#professional-experiences .experience {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#professional-experiences .experience h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
+
+#professional-experiences .experience p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Education Section */
+#education {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+#education h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#education ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+#education ul li strong {
+    color: #333;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#projects .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+#projects .project-item {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects .project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#projects .project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a73e8;
+}
+
+#projects .project-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Transition Effect */
+a, button, li {
+    transition: all 0.3s ease;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1a73e8;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#contact form button {
+    background: #1a73e8;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact form button:hover {
+    background: #155cb0;
+}
